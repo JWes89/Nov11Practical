@@ -7,7 +7,7 @@
     private double farePerMinute = 0.5;
     private double nightTimeFactor = 1.5;
     public boolean isBooked() {
-        return isBooked;
+        return isBooked = true;
     }
     public void setBooked(boolean booked) {
         isBooked = booked;
